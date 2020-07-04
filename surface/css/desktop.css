@@ -1,0 +1,307 @@
+.header {
+  padding: 44px 20px 108px 20px;
+  background-image: url(../img/football_1920.jpg);
+}
+.header-content {
+  align-items: center;
+}
+.logo-main {
+  width: 190px;
+}
+.welcome-rows {
+  margin-top: 0;
+  padding-top: 265px;
+  width: 86%;
+  min-width: 1157px;
+  max-width: 1605px;
+}
+.welcome-row {
+  font-size: 90px;
+  letter-spacing: 4.3px;
+}
+.welcome-row-two {
+  margin-top: 0;
+  width: 1125px;
+  line-height: 67px;
+}
+.welcome-buttons {
+  margin: 225px auto 0 auto;
+  width: 675px;
+}
+.welcome-button {
+  width: 310px;
+}
+.steps-item-container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+.item {
+  width: 48.3%;
+}
+.steps::before {
+  background-image: url(../img/footballer_566.png);
+  background-position: right 950px top 30px;
+  bottom: -65px;
+}
+.steps-players::before {
+  background-image: url(../img/basketballer_991.png);
+  background-position: 800px 25px;
+  bottom: -30px;
+}
+.steps-main-title {
+  padding-top: 88px;
+  padding-bottom: 10px;
+}
+.item-numbered {
+  padding-top: 57px;
+  padding-bottom: 53px;
+}
+.item-players {
+  margin-left: 155px;
+  padding-right: 80px;
+}
+.steps-num {
+  top: 61px;
+}
+.steps-title {
+  padding-bottom: 15px;
+  font-size: 36px;
+}
+.steps-text {
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+.manual-active,
+.manual-work {
+  flex-direction: row;
+}
+.manual-contact {
+  flex-direction: row-reverse;
+}
+.manual-subblock {
+  width: 50%;
+}
+.manual-two-content-container {
+  display: flex;
+  justify-content: flex-end;
+}
+.manual-content {
+  max-width: 900px;
+}
+.manual-title {
+  padding: 170px 33px 10px 127px;
+  font-size: 80px;
+  letter-spacing: 0;
+}
+.manual-text {
+  padding: 70px 33px 0 127px;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+}
+.manual-num {
+  padding: 51px 70px 70px 70px;
+  font-size: 24px;
+}
+.manual-num::before {
+  top: 86px;
+  width: 26px;
+  left: 71px;
+  height: 5px;
+  border-radius: 3px;
+}
+.manual-num-odd {
+  top: 210px;
+  left: -85px;
+}
+.manual-num-even {
+  top: 210px;
+  right: -85px;
+  left: auto;
+}
+.footer {
+  padding: 0;
+  padding-top: 182px;
+  background-image: url(../img/game_1920.jpg);
+}
+.footer-title {
+  display: flex;
+  text-align: left;
+}
+.footer-main-logo {
+  margin: 0;
+  margin-top: 55px;
+  width: 132px;
+  height: 137px;
+  border-radius: 32px;
+}
+.footer-main-logo-container {
+  width: 103px;
+}
+.footer-title-text {
+  padding-top: 47px;
+  padding-left: 30px;
+}
+.you-can {
+  font-size: 30px;
+  line-height: 23px;
+}
+.footer-buttons {
+  margin-top: 157px;
+  padding: 0;
+}
+.logo-footer {
+  padding-top: 263px;
+}
+@media (min-width: 1921px) {
+  .steps::before {
+    background-position: right 90% top 30px;
+  }
+  .steps-players::before {
+    background-position: 90% 25px;
+  }
+}
+@media (max-width: 1919px) {
+  .header {
+    padding: 0;
+  }
+  .header-content {
+    height: 100vh;
+    padding: 20px 0 60px 0;
+    justify-content: space-between;
+  }
+  .footer-content {
+    height: 100vh;
+    padding: 52px 0 20px 0;
+    justify-content: space-between;
+  }
+  .welcome-rows {
+    padding-top: 0;
+  }
+  .welcome-buttons {
+    margin-top: 0;
+  }
+  .steps::before {
+    background-position: right 870px top 30px;
+  }
+  .steps-players::before {
+    background-position: 550px 25px;
+  }
+  .footer {
+    padding: 0;
+  }
+  .download {
+    margin-left: 0;
+  }
+  .logo-footer {
+    padding: 0;
+  }
+}
+@media (max-width: 1550px) {
+  .manual-content {
+    padding-top: 0;
+    padding-right: 70px;
+    padding-bottom: 0;
+  }
+  .manual-title {
+    font-size: 65px;
+  }
+  .manual-num {
+    top: 140px;
+  }
+}
+@media (max-width: 1366px) {
+  .welcome-rows {
+    min-width: auto;
+  }
+  .welcome-row {
+    padding: 0;
+    font-size: 60px;
+    letter-spacing: 4.3px;
+  }
+  .welcome-row-two {
+    width: 756px;
+  }
+  .manual-num {
+    top: 80px;
+    padding: 35px 45px 48px 45px;
+    font-size: 24px;
+  }
+  .manual-num-odd {
+    left: -60px;
+  }
+  .manual-num-even {
+    right: -60px;
+    left: auto;
+  }
+  .manual-num::before {
+    top: 70px;
+    left: 45px;
+    width: 27px;
+    height: 5px;
+    border-radius: 3px;
+  }
+  .manual-content {
+    padding-top: 90px;
+    padding-bottom: 0;
+  }
+  .manual-title {
+    font-size: 65px;
+    padding: 0 0 0 90px;
+  }
+  .manual-text {
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 95px;
+    padding-bottom: 0;
+  }
+  .item-players {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 1270px) {
+  .manual-content {
+    padding-top: 100px;
+    padding-bottom: 0;
+  }
+  .manual-title {
+    font-size: 55px;
+  }
+  .steps::before {
+    background-position: right 120% top 30px;
+  }
+  .steps-players::before {
+    background-position: 220% 25px;
+  }
+}
+@media (max-width: 1150px) {
+  .manual-content {
+    padding-top: 50px;
+  }
+  .manual-title {
+    font-size: 50px;
+    padding-bottom: 0;
+    padding-left: 75px;
+  }
+  .manual-text {
+    padding-top: 40px;
+    padding-right: 60px;
+    padding-left: 75px;
+    padding-bottom: 0;
+  }
+  .manual-num {
+    top: 23px;
+  }
+  .manual-num::before {
+    top: 70px;
+  }
+  .steps-playmanual::before {
+    background-position: 400px 25px;
+  }
+}
+@media (max-width: 1050px) {
+  .manual-title {
+    font-size: 45px;
+  }
+}

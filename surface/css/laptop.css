@@ -1,0 +1,163 @@
+.header {
+  padding: 39px 58px 92px 58px;
+  background-image: url(../img/football_1280.jpg);
+}
+.logo-main {
+  width: 205px;
+}
+.welcome-rows {
+  margin-top: 160px;
+  padding-left: 28px;
+}
+.welcome-row {
+  font-size: 64px;
+  letter-spacing: 3px;
+}
+.welcome-row-two {
+  margin-top: 0;
+  width: 517px;
+  line-height: 74px;
+}
+.welcome-buttons {
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome-button {
+  width: 47.5%;
+  height: 77px;
+  border-radius: 39px;
+  font-size: 14px;
+}
+.welcome-button-text {
+  width: 182px;
+  padding-left: 40px;
+}
+.apple-row-top,
+.google-row-top {
+  font-weight: normal;
+}
+.google-button {
+  width: 182px;
+  padding-left: 63px;
+}
+.welcome-button-goo {
+  margin-top: 0;
+}
+.apple-button::before {
+  top: -4px;
+  left: -25px;
+  width: 45px;
+  height: 45px;
+}
+.google-button::before {
+  top: 0;
+  left: -9px;
+  width: 42px;
+  height: 42px;
+}
+.steps::before {
+  background-image: url(../img/footballer_497.png);
+  background-position: -160px 90px;
+}
+.steps-players::before {
+  background-image: url(../img/basketballer_436.png);
+  background-position: 100% 37px;
+}
+.steps-item-container {
+  display: flex;
+}
+.steps-item-container-end {
+  justify-content: flex-end;
+}
+.item {
+  width: 64.5%;
+  padding-right: 33px;
+  padding-left: 33px;
+}
+.steps-main-title {
+  padding-top: 58px;
+  padding-bottom: 0;
+}
+.steps-main-title-h3 {
+  font-size: 80px;
+}
+.item-numbered {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.steps-num {
+  top: 34px;
+  font-size: 18px;
+}
+.steps-num::after {
+  width: 20px;
+  height: 5px;
+  top: 24px;
+  left: 1px;
+}
+.steps-title {
+  font-size: 32px;
+  letter-spacing: 0.05em;
+}
+.steps-text {
+  line-height: 27px;
+  letter-spacing: 0.05em;
+}
+.manual-content {
+  padding: 65px 0 98px 0;
+}
+.manual-num {
+  top: -80px;
+  left: 32px;
+  padding: 35px 45px 48px 45px;
+  font-size: 24px;
+}
+.manual-num::before {
+  top: 70px;
+  width: 27px;
+  height: 5px;
+  border-radius: 3px;
+}
+.manual-title {
+  padding: 0 33px 10px 27px;
+  font-size: 80px;
+  letter-spacing: 0;
+}
+.manual-text {
+  padding: 0 33px 0 33px;
+  font-size: 24px;
+  line-height: 27px;
+  letter-spacing: 0.06em;
+}
+.footer {
+  padding: 124px 0 20px 0;
+  background-image: url(../img/game_1280.jpg);
+}
+.footer-main-logo {
+  width: 132px;
+  height: 137px;
+  border-radius: 32px;
+}
+.footer-main-logo-container {
+  width: 105px;
+}
+.footer-title-text {
+  padding-top: 55px;
+}
+.download {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+}
+.you-can {
+  letter-spacing: 0;
+  font-size: 36px;
+  line-height: 37px;
+}
+.footer-buttons {
+  margin-top: 285px;
+  padding: 0 63px;
+}
+.logo-footer {
+  padding-top: 55px;
+}
