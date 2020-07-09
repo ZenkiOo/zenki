@@ -139,6 +139,11 @@ a {
   font-weight: normal;
 }
 @font-face {
+  font-family: "Rostov";
+  src: url("../fonts/Rostov.woff") format("woff");
+  font-weight: normal;
+}
+@font-face {
   font-family: "OpenSans";
   src: url("../fonts/OpenSans-Regular.woff2") format("woff2"),
     url("../fonts/OpenSans-Regular.ttf") format("opentype"),
@@ -543,6 +548,7 @@ div .works-item:hover .works-desc {
   display: block;
   position: absolute;
   color: #313131;
+  font-family: Mateur;
   font-size: 20px;
 }
 .tag-div {
@@ -575,7 +581,80 @@ div .works-item:hover .works-desc {
 
 
 
+.title {
+  margin-left: 90px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+}
+.letter {
+  display: block;
+  color: #696969;
+  font-family: "Rostov";
+  font-size: 50px;
+  letter-spacing: 1px;
+  line-height: 60px;
+  transition: 0.6s;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
+.letter:hover {
+  animation-name: rubberBand;
+  color: #00ffab;
+  cursor: default;
+}
+.letter-z {
+  margin-left: 30px;
+}
+@keyframes rubberBand {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
 
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+.contact-main {
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.contact-link {
+  font-size: 13px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  color: #00ffab;
+  border: #00ffab 1px solid;
+  transition: 0.3s;
+}
+.contact-link:hover {
+  color: #000;
+  background-color: #00ffab;
+}
 
 
 
