@@ -347,11 +347,6 @@ a {
 .z-social-item:hover .z-social-item-container {
   opacity: 1;
 }
-
-
-
-
-
 @-webkit-keyframes rotate-diagonal-2 {
   0% {
     -webkit-transform: rotate3d(-1, 1, 0, 0deg);
@@ -380,6 +375,14 @@ a {
     transform: rotate3d(-1, 1, 0, 360deg);
   }
 }
+
+
+
+
+
+
+
+
 .main {
   width: 100%;
   padding-top: 20px;
@@ -552,30 +555,61 @@ div .works-item:hover .works-desc {
   font-size: 20px;
 }
 .tag-div {
-  margin-top: 300px;
-  margin-left: 200px;
+  margin-top: 450px;
+  margin-left: 450px;
+  font-size: 23px;
 }
 .tag-span {
   margin-top: 500px;
-  margin-left: 450px;
+  margin-left: 750px;
+  font-size: 23px;
 }
 .tag-a {
-  margin-top: 50px;
-  margin-left: 500px;
-  font-size: 30px;
+  margin-top: 40px;
+  margin-left: 470px;
+  font-size: 23px;
 }
 .tag-br {
   margin-top: 150px;
-  margin-left: 1000px;
+  margin-left: 1100px;
 }
 .tag-main {
   margin-top: 550px;
   margin-left: 1000px;
-  font-size: 27px;
+  font-size: 20px;
 }
 .tag-html {
-  margin-top: 300px;
-  margin-left: 500px;
+  margin-top: 200px;
+  margin-left: 600px;
+  font-size: 26px;
+}
+.tag-h2 {
+  margin-left: 800px;
+  margin-top: 100px;
+  font-size: 24px;
+}
+.tag-nav {
+  margin-top: 550px;
+  margin-left: 350px;
+  font-size: 19px;
+}
+.tag-img {
+  margin-top: 110px;
+  margin-left: 350px;
+}
+.tag-li {
+  margin-top: 320px;
+  margin-left: 750px;
+  font-size: 28px;
+}
+.tag-ol {
+  margin-top: 270px;
+  margin-left: 950px;
+  font-size: 24px;
+}
+.tag-link {
+  margin-top: 400px;
+  margin-left: 1250px;
 }
 
 
