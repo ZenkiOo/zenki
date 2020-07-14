@@ -631,18 +631,24 @@ div .works-item:hover .works-desc {
   font-size: 50px;
   letter-spacing: 1px;
   line-height: 60px;
-  transition: 0.6s;
+  transition: 0.2s;
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-iteration-count: 1;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.603);
+}
+.letter-blue {
+  color: #00ffab;
 }
 .letter:hover {
-  animation-name: rubberBand;
   color: #00ffab;
   cursor: default;
 }
+.letter-animated {
+  animation-name: rubberBand;
+}
 .letter-z {
-  margin-left: 30px;
+  margin-left: 28px;
 }
 @keyframes rubberBand {
   from {
