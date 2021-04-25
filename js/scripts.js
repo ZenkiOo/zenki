@@ -1,24 +1,27 @@
-let scene = document.getElementById("scene")
-let parallaxInstance = new Parallax(scene)
+let scene = document.getElementById("scene");
+let parallaxInstance = new Parallax(scene);
 
-let selectedSpan;
-let anim = document.getElementById("row")
-let anim2 = document.getElementById("row2")
-let anim3 = document.getElementById("row3")
-let animRubberBand = function(event) {
-  let target = event.target
-  if (target.tagName != 'SPAN') return
-  animate(target)
-  setTimeout(() => {reanimate(target)}, 1000)
+let selectedSpan,
+  anim = document.getElementById("row"),
+  anim2 = document.getElementById("row2"),
+  anim3 = document.getElementById("row3");
+
+let animRubberBand = function (event) {
+  let target = event.target;
+  if (target.tagName != "SPAN") return;
+  addClass(target);
+  setTimeout(() => {
+    robClass(target);
+  }, 1000);
+};
+function addClass(span) {
+  selectedSpan = span;
+  selectedSpan.classList.add("letter-animated");
 }
-function animate(span) {
-  selectedSpan = span
-  selectedSpan.classList.add('letter-animated')
+function robClass(span) {
+  selectedSpan = span;
+  selectedSpan.classList.remove("letter-animated");
 }
-function reanimate(span) {
-  selectedSpan = span
-  selectedSpan.classList.remove('letter-animated')
-}
-anim.onmouseover = animRubberBand
-anim2.onmouseover = animRubberBand
-anim3.onmouseover = animRubberBand
+anim.onmouseover = animRubberBand;
+anim2.onmouseover = animRubberBand;
+anim3.onmouseover = animRubberBand;

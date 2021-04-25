@@ -160,6 +160,7 @@ a {
 .body {
   display: flex;
   font-family: "OpenSans";
+  
 }
 .body,
 .z-header,
@@ -388,6 +389,8 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #1d1d1d;
+  /* background-image: url(../img/wallp.jpg); */
+  background-position: center 0;
 }
 .main::before, .main::after {
   position: absolute;
@@ -546,13 +549,19 @@ div .works-item:hover .works-desc {
   bottom: 0;
   left: 0;
   overflow: hidden;
+  z-index: 10;
 }
 .tag {
   display: block;
   position: absolute;
-  color: #313131;
+  /* color: #313131; */
+  color: #2e2e2e;
   font-family: Mateur;
   font-size: 20px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.603);
+}
+.tag-colored {
+  color: #00ffab;
 }
 .tag-div {
   margin-top: 450px;
@@ -644,11 +653,11 @@ div .works-item:hover .works-desc {
   color: #00ffab;
   cursor: default;
 }
-.letter-animated {
-  animation-name: rubberBand;
-}
 .letter-z {
   margin-left: 28px;
+}
+.letter-animated {
+  animation-name: rubberBand;
 }
 @keyframes rubberBand {
   from {
